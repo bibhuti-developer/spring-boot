@@ -1,1 +1,1 @@
-# startup template project
+# startup core project
