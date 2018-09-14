@@ -17,7 +17,8 @@ public class CoreApplication {
 		SimpleController sc = (SimpleController) cxt.getBean("simpleController");
 		sc.hello();
 		
-		System.out.println(cxt.getBean(PropertyInjectedController.class).greetingService.sayGreeting());
+		System.out.println(cxt.getBean(SimpleController.class).hello());
+		System.out.println(cxt.getBean(PropertyInjectedController.class).sayHello());
 		System.out.println(cxt.getBean(SetterInjectedController.class).sayHello());
 		System.out.println(cxt.getBean(ConstructorInjectedController.class).sayHello());
 	}
