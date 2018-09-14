@@ -4,7 +4,6 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class SimpleController {
-	//private GreetingService greetingService;
 	
 	public String hello() {
 		System.out.println("hello");
